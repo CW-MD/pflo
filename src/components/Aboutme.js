@@ -4,7 +4,7 @@ import '../styles/global.css'
 
 const Aboutme = () => {
     return (
-        <div className='Aboutme'>
+        <div id="aboutme-container">
             <h2 className='Aboutme_header'>About Me</h2>
             <p className='Aboutme_text'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tincidunt est. Mauris nisi ante, 
