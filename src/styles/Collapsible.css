@@ -22,11 +22,8 @@
     box-shadow: 0 15px 15px rgba(0,0,0,.6);
     text-align: center;
     margin: auto;
-    /* background-color: hsla(208, 51%, 85%, 1); */
-    /* border-width: 1.5px;
-    border: 1.5px;
-    border-color: black;
-    border-style:groove; */
+    font-family: RedHat, sans-serif;
+    
     
     
     
@@ -36,6 +33,7 @@ p{
 
     font-size: 18px;
     line-height: 40px;
+    font-family: RedHat, sans-serif;
 }
 
 
