@@ -115,11 +115,9 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
     
     
 }
-@media screen {
+
     
-}{
-    
-}
+
 .Herocard>div{
     user-select: none;
     color: #333;
