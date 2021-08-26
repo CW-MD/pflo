@@ -173,7 +173,7 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
 
 .Aboutme_text{
     font-family: RedHat;
-    font-size: calc(10px + 1vw);
+    font-size: calc(12px + 1vh);
     width: 50vw;
     padding-left: 31%;
     padding-right: 31%;
@@ -181,8 +181,10 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
     flex-basis: 100%;
     margin-top: 10%;
     position: absolute;
-    line-height: calc(20px + 4vh);
+    line-height: calc(20px + 3vh);
     color: hsl(173, 30%, 94%);
+
+    max-height: 90%;
 }
 
 #prof_container{
@@ -220,7 +222,40 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
        
    }
 
-   #type-sec{
+
+   @media (max-width: 375px) {
+       .Aboutme_text{
+           font-size: calc(8px + 1vh);
+           line-height: calc(20px + 3vh);
+       }
+   }
+
+   @media (max-width: 560px) {
+       .Herocard{
+           margin-top: 20vh;
+           font-size:calc(12px + 1vw);
+           padding-bottom: 5vh;
+           padding-right: 3vw;
+
+       }
+
+       #aboutme-container{
+           height: 140vh;
+       }
+       
+   }
+   @media (max-width: 768px){
+    .Aboutme_text{
+        padding-left: 0;
+        padding-right: 0;
+        width: fit-content;
+        max-width: 100vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20%;
+
+    }
+
 
    }
 

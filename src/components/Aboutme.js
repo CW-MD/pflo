@@ -6,7 +6,8 @@ const Aboutme = () => {
     return (
         <div id="aboutme-container">
             <h2 className='Aboutme_header'>About Me</h2>
-            <p className='Aboutme_text'>
+            <div className='Aboutme_text'>
+            <p >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tincidunt est. Mauris nisi ante, 
             convallis id magna non, varius varius sem. Maecenas arcu sapien, pulvinar a nibh vel, tempus consequat mauris. 
             Duis viverra, sem in posuere rhoncus, tellus tortor facilisis mi, nec pretium nisl ipsum egestas erat. Cras sed finibus massa, 
@@ -16,6 +17,7 @@ const Aboutme = () => {
             Suspendisse in risus tincidunt, cursus risus ac, auctor justo.
 
             </p>
+            </div>
         </div>
     )
 }
