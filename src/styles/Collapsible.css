@@ -2,27 +2,29 @@
     background-color:#2A3D4D;
     color:hsla(208, 51%, 85%, 1);
     cursor: pointer;
-    padding: 10px; 
-    width: 30vw;
-    max-width: 30vw;
+    padding: 2rem 1rem;  
+    width: 50%;
+    max-width: 50%;
     /* height: 100px;
     max-height: 40vh; */
     border: none;
     text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
     outline: none;
     font-size: 32px;
     /* flex-basis: 100%; */
     /* margin-top: 10%; */
     /* position: relative; */
-    line-height: 50px;
+    line-height: calc(15px + 1rem);
     border-radius: 50px;
     /* background-color: #2A3D4D; */
     box-shadow: 0 15px 15px rgba(0,0,0,.6);
     text-align: center;
     margin: auto;
     font-family: RedHat, sans-serif;
+    
+
     
     
     
@@ -48,8 +50,13 @@
 
   @media (max-width: 768px) {
         .Collapsible{
-            max-width: 80vw;
-            width: 80vw;
+            max-width: 80%;
+            width: 80%;
+           
+        
+        
+          
+            
         }
         
   }

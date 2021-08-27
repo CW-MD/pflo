@@ -8,7 +8,7 @@ body{
     src: url('../fonts/RedHatText-Regular.ttf');
 }
 @font-face{
-    font-family: RedHatDisplay;
+    font-family: RedHatDisplay, sans-serif;
     src:url('../fonts/RedHatDisplay-Regular.ttf')
 }
 
@@ -43,7 +43,7 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
     text-align: right;
     user-select: none;
     padding-top: 1vh;
-    font-family:RedHatDisplay;
+    font-family:RedHatDisplay, sans-serif;
 
     
     
@@ -55,7 +55,7 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
 .Navbar_items {
     font-size: calc(12px + 1.5vw);
     color:hsl(173, 30%, 94%);
-    font-family: RedHat;
+    font-family: RedHat, sans-serif;
 }
 
 
@@ -107,7 +107,7 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
     margin-top: 14%;
     position: absolute;
     font-size: calc(16px + 1.5vw);
-    font-family: RedHatDisplay;
+    font-family: RedHatDisplay, sans-serif;
     box-shadow: 0 15px 15px rgba(0,0,0,.6); 
     
     user-select: none;
@@ -115,6 +115,10 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
     
     
 }
+
+/* #hero-container > div.Herocard > div > span.Typewriter__wrapper{
+    white-space: nowrap;
+} */
 
     
 
@@ -138,7 +142,7 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
 
 
 
-.test{
+/* .test{
     max-width: 500px;
     height: 300px;
     background-color: brown;
@@ -148,7 +152,9 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
     margin-top: 500px;
     position: absolute;
     max-width:100vw;
-}
+} */
+
+
 
 
 #aboutme-container{
@@ -163,7 +169,7 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
 .Aboutme_header{
     padding-top: 1vh;
     font-size: calc(18px + 2.5vw);
-    font-family: RedHatDisplay;
+    font-family: RedHatDisplay, sans-serif;
     /* color: lightgray; */
     color:hsl(173, 30%, 94%);
     /* flex-basis: 100%; */
@@ -172,7 +178,7 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
 }
 
 .Aboutme_text{
-    font-family: RedHat;
+    font-family: RedHat, sans-serif;
     font-size: calc(12px + 1vh);
     width: 50vw;
     padding-left: 31%;
@@ -188,7 +194,7 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
 }
 
 #prof_container{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -196,6 +202,7 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
     flex-direction:column;
     flex-wrap: nowrap;
     background-color: hsla(208, 41%, 61%, 0.4);
+
     
     /* background-color:hsla(203, 80%, 70%); */
 }
@@ -210,23 +217,32 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
 
    #Footer{
        width: 100%;
-       height: 6vh;
+       height: 100%;
        font-size: 1rem;
        background-color: #333;
        color:  hsl(173, 30%, 90%);
        display: flex;
        user-select: none;
+       justify-content: space-around;
+       font-family: RedHat, sans-serif;
        
 
        /* justify-content: space-between; */
        
    }
 
+  
+
 
    @media (max-width: 375px) {
        .Aboutme_text{
            font-size: calc(8px + 1vh);
            line-height: calc(20px + 3vh);
+       }
+       
+       #Footer>p{
+           font-size: .75rem;
+           
        }
    }
 
@@ -242,6 +258,9 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
        #aboutme-container{
            height: 140vh;
        }
+       #Footer{
+        justify-content: center;
+    }
        
    }
    @media (max-width: 768px){
@@ -255,8 +274,32 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
         margin-top: 20%;
 
     }
+   
+    
 
 
+   }
+
+   @media (max-width: 1024px){
+    #Footer{
+        justify-content: space-around;
+        white-space: nowrap;
+
+    }
+    #Footer>p{
+        margin-left: 0;
+        margin-right: 0;
+        max-width: fit-content;
+    }
+}
+
+   @media (max-width: 1200px) {
+    #Footer {
+       justify-content: space-around;
+
+
+    }
+    
    }
 
 

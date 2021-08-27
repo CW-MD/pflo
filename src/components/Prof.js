@@ -13,7 +13,7 @@ const Prof = () => {
             <h2 style={{fontSize:'calc(18px + 2.5vw )', maxHeight:'10vh',  marginBottom:'5vh', lineHeight:'10px', marginTop:'8%', fontFamily:['RedHatDisplay', 'sans serif'] }}>Proficiencies</h2>
             
            
-            <Collapsible transitionTime='155' trigger='Design' triggerTagName='div' fontFamily="RedHatDisplay" fontSize='100px' >
+            <Collapsible transitionTime='155' trigger='Design' triggerTagName='div' fontFamily="RedHatDisplay"  >
                 <p className='innerCollapse'>Suspendisse elementum, metus a aliquet accumsan, purus velit mattis tortor,
                      in fringilla massa augue at elit. Etiam finibus mauris
                       sed purus suscipit pellentesque. Nulla libero ipsum,Suspendisse elementum,
