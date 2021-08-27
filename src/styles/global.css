@@ -206,6 +206,16 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
     
     /* background-color:hsla(203, 80%, 70%); */
 }
+
+.prof_header{
+    font-size:calc(18px + 3.5vw ); 
+        max-height:10vh; 
+        margin-bottom:5vh;
+        line-height:10px;
+        margin-top:8%;
+         
+        font-family:'RedHatDisplay', sans-serif 
+}
   
   svg {
     position: absolute;

@@ -34,7 +34,7 @@
 .innerCollapse{
 
     font-size: calc(10px + 1vh);
-    line-height: calc(15px + 2.5vh);
+    line-height: calc(15px + 2vh);
     font-family: RedHat, sans-serif;
 }
 
@@ -47,6 +47,12 @@
     border-style:groove;
   } */
 
+
+@media (max-width: 425px){
+    .Collapsible{
+        
+    }
+}
 
   @media (max-width: 768px) {
         .Collapsible{
