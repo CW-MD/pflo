@@ -28,22 +28,27 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
  padding: 0.5rem 1rem;
  align-items: center;
  backdrop-filter: blur(8.5px);
-
+ font-family:RedHatDisplay, sans-serif;
+ font-size: calc(12px + .75vw);
  z-index: 10;
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: black;
+ user-select: none;
+
 }
 
 .Navbar_header {
-    margin-top: 0;
+    margin-top: 1%;
     /* display: inline-block; */
     font-size: calc(18px + 1.5vw);
-    line-height: calc(13px + 1.5vh);
+    line-height: calc(16px + 1.5vh);
     text-align: right;
     flex-wrap: wrap;
     width: min-content;
     text-align: right;
     user-select: none;
     padding-top: 1vh;
-    font-family:RedHatDisplay, sans-serif;
+    
 
     
     

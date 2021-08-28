@@ -3,9 +3,11 @@ import '../styles/global.css'
 const Navbar = () => {
     return(
         <div className="Navbar">
-            <div>
+            
+            <a href = '#'>Projects</a>
             <h1 className='Navbar_header'>Chad{'\n'} Dayton</h1>
-            </div>
+            <a href='#'>Contact</a>
+           
             {/* <a className='Navbar_items' href='/'>Resume </a>
             <a className='Navbar_items' href='/'>Projects </a>
             <a className='Navbar_items' href='/'>Contact </a> */}
