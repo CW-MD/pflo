@@ -29,12 +29,25 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
  align-items: center;
  backdrop-filter: blur(8.5px);
  font-family:RedHatDisplay, sans-serif;
- font-size: calc(12px + .75vw);
+ font-size: calc(16px + 1.5vw);
  z-index: 10;
  -webkit-text-stroke-width: 1px;
- -webkit-text-stroke-color: black;
+ -webkit-text-stroke-color: #333;
+
  user-select: none;
 
+}
+
+.Navbar>a{
+    color: inherit;
+    text-decoration: inherit;
+    font-size: inherit;
+    -webkit-text-stroke-width: inherit;
+    -webkit-text-stroke-color:inherit
+}
+
+.Navbar>a:hover{
+    color: hsla(203, 80%, 85%)
 }
 
 .Navbar_header {
@@ -222,13 +235,8 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
         font-family:'RedHatDisplay', sans-serif 
 }
   
-  svg {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 10vw;
-    /* set height to pixels if you want angle to change with screen width */
-   } 
+ 
+   
 
    #Footer{
        width: 100%;
@@ -246,7 +254,23 @@ background: linear-gradient(to right, hsla(172, 57%, 90%, 0),hsla(172, 57%, 67%,
        
    }
 
-  
+   .media_icons{
+       display: flex;
+       justify-content: space-evenly;
+       margin: auto;
+   }
+
+   .media_icons>span{
+
+       font-size: calc(8px + .5vw);
+       margin-left: 0;
+   }
+   
+   .logo{
+       display: flex;
+       width: 20%;
+       justify-content: space-evenly;
+   }
 
 
    @media (max-width: 375px) {

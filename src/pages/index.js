@@ -22,6 +22,7 @@ const MainPage = ()=>{
     </div>
     <Aboutme/>
     <Prof/>
+  
     <Footer/>
     </>
     
