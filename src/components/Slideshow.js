@@ -7,11 +7,11 @@ const Slideshow = () =>{
     return(
         <div className = 'slideshow'>
             <div>
-                <p> Graphic Designer</p>
+                <p> Web Designer</p>
             </div>
-            <div> <p>Web Developer</p></div>
+            <div> <p>Software Developer</p></div>
                
-            <div><p>Software Engineer</p></div>
+            <div><p>Security Specialist</p></div>
         </div>
     )
 }

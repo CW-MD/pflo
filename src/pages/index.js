@@ -21,7 +21,7 @@ const MainPage = ()=>{
    
     </div>
     <Aboutme/>
-    <Prof/>
+    {/* <Prof/> */}
   
     <Footer/>
     </>

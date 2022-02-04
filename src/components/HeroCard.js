@@ -9,7 +9,7 @@ const HeroCard = () => {
            <h2 className='Herocard_text'>My name's Chad, and I'm a...</h2>
           
             <Typewriter className='Typewriter'  options={{
-                strings:['Graphic Designer', 'Web Developer', 'Software Engineer'],
+                strings:['Web Developer', 'Software Engineer', 'Security Specialist'],
                 autoStart: true,
                 loop:true,
                 deleteSpeed:8,

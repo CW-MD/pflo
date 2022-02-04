@@ -11,9 +11,9 @@ const Footer = () => {
     return (
         
         <div id="Footer" onClick={()=>fade()}>
-            <p style={{marginTop:0, }} >©2021 Chad Dayton </p>
+            {/* <p style={{marginTop:0}} >©2021 Chad Dayton </p> */}
            <p style={{marginTop:0}}> Click to go back</p>
-           <p style={{marginTop:0}}> Click to go back</p>
+           
            
             </div>
     )
