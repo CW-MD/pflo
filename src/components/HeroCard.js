@@ -13,8 +13,8 @@ const HeroCard = () => {
                 autoStart: true,
                 loop:true,
                 deleteSpeed:8,
-                delay:'85',
-                pauseFor: 1500,
+                delay:'43',
+                pauseFor: 700,
                 
         }}/>
 
