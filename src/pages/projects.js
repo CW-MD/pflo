@@ -8,10 +8,10 @@ const ProjPage = () =>{
         <>
         <Navbar/>
         <>
+        {/* Below Code is Card for RLR */}
         <div id='hero-container' style={{minHeight:'100%',}}>
         <div className='hero-bg' style={{backgroundRepeat:'repeat-x'}} >
         </div>
-        {/* Below Code is Card for RLR */}
 
         <div className='Herocard' >
             <center> <h2 className='Herocard_text' style={{paddingLeft:0,}}>Red Light Runner</h2>
@@ -27,8 +27,8 @@ const ProjPage = () =>{
           </div>
           </div>
     {/* Below Code is Card for Preppy */}
-    <div id='hero-container' style={{height:'73vh'}}>
-        <div className='hero-bg' style={{top:'auto', transform:'rotate(180deg)', height:'73vh'}} >
+    <div id='hero-container' style={{height:'72vh'}}>
+        <div className='hero-bg' style={{top:'auto', transform:'rotate(180deg)', height:'72vh'}} >
         </div>
           <div className='Herocard' style={{marginTop:'0', right:'0'}} >
     <center> <h2 className='Herocard_text' style={{paddingLeft:0,}}>Preppy</h2>
@@ -43,6 +43,23 @@ const ProjPage = () =>{
            
           </div>
             </div>
+
+            <div id='hero-container' style={{height:'72vh'}}>
+        <div className='hero-bg' style={{top:'auto', height:'72vh'}} >
+        </div>
+
+        <div className='Herocard' style={{marginTop:'0'}}>
+            <center> <h2 className='Herocard_text' style={{paddingLeft:0,}}>Gyre</h2>
+    {/* <img src={testImage}/> */}
+            <p style={{fontSize:'calc(12px + 1vw)',}}>Built with Javascript, React, Redux, Node,and Postgresql,
+            Gyre is a mock E-Commerce website specializing in the sale of carnival equipment.
+           </p>
+           <br></br>
+           <p style={{fontSize:'calc(10px + .5vw)'}}><a href='placeholder.place'>Privacy Policy</a></p>
+           </center>
+           
+          </div>
+          </div>
           </>
         
         </>
