@@ -8,13 +8,14 @@ const Aboutme = () => {
             <h2 className='Aboutme_header'>About Me</h2>
             <div className='Aboutme_text'>
             <p >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tincidunt est. Mauris nisi ante, 
-            convallis id magna non, varius varius sem. Maecenas arcu sapien, pulvinar a nibh vel, tempus consequat mauris. 
-            Duis viverra, sem in posuere rhoncus, tellus tortor facilisis mi, nec pretium nisl ipsum egestas erat. Cras sed finibus massa, 
-            consectetur fringilla velit. Quisque vitae tellus viverra, ultricies ipsum sagittis, rutrum magna. Suspendisse elementum, 
-            metus a aliquet accumsan, purus velit mattis tortor, in fringilla massa augue at elit. Etiam finibus mauris sed purus suscipit pellentesque. 
-            Nulla libero ipsum, lobortis sed dictum in, lobortis id justo. In a malesuada metus. Sed eu nisi lacinia est dapibus consectetur ut in enim. 
-            Suspendisse in risus tincidunt, cursus risus ac, auctor justo.
+            My name's Chad. I'm an Air Force veteran turned developer with a strong interest in cybersecurity.
+            After leaving active duty, I went on to graduate from FullStack Academy in early 2021.
+            I consider myself a lifelong student; since my start at FullStack with Javascript, I've 
+            branched out and touched on a handful of different languages(Python, C#, C++, x86 Assembly) 
+            and recently published my first mobile game to the Google Play Store. 
+            I'm currently double majoring in Cybersecurity, as well as Computer Information Systems,
+            and open to positions in either field.
+            Some of my hobbies include PC Gaming, Powerlifting, Jiu-Jitsu, and playing the piano(even though I'm awful at it). 
 
             </p>
             </div>

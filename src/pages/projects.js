@@ -2,6 +2,7 @@ import * as React from 'react'
 import Navbar from '../components/Navbar'
 import '../styles/global.css'
 import testImage from '../images/icon.png'
+import Footer from '../components/Footer'
 
 const ProjPage = () =>{
     return(
@@ -60,6 +61,7 @@ const ProjPage = () =>{
            
           </div>
           </div>
+          <Footer/>
           </>
         
         </>
