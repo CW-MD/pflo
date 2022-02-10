@@ -2,6 +2,7 @@ import * as React from 'react'
 import '../styles/global.css'
 import '../styles/Collapsible.css'
 import Collapsible from 'react-collapsible'
+import {Link} from 'gatsby'
 
 
 

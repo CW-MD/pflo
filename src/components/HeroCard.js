@@ -5,8 +5,8 @@ import  Typewriter  from 'typewriter-effect';
 
 const HeroCard = () => {
     return (
-        <div className='Herocard'>
-           <h2 className='Herocard_text'>My name's Chad, and I'm a...</h2>
+        <div className='Herocard' >
+           <h2 className='Herocard_text' style={{userSelect:'none'}}>My name's Chad, and I'm a...</h2>
           
             <Typewriter className='Typewriter'  options={{
                 strings:['Web Developer', 'Software Engineer', 'Security Specialist'],
