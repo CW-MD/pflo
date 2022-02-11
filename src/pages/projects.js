@@ -21,7 +21,7 @@ const ProjPage = () =>{
         <div className='Herocard' style={{display:'inline-block', }}>
             <center> <h2 className='Herocard_text' style={{paddingLeft:0,}}>Red Light Runner</h2>
             
-            <p style={{fontSize:'calc(12px + 1vw)',marginLeft:'2%', marginRight:'2%',marginBottom:'0'}}>Built with C# and the Unity engine, 
+            <p style={{fontSize:'calc(12px + 1vw)',marginLeft:'3%', marginRight:'3%',marginBottom:'0'}}>Built with C# and the Unity engine, 
            Red Light Runner is a mobile game in which the player must avoid all the red lights, 
            while continuously gaining speed, and unable to stop.
            </p>
@@ -44,7 +44,7 @@ const ProjPage = () =>{
           <div className='Herocard' style={{marginTop:'0', right:'0'}} >
     <center> <h2 className='Herocard_text' style={{paddingLeft:0,}}><a href='https://preppy-food.web.app/' className='proj_links'>Preppy</a></h2>
     {/* <img src={testImage}/> */}
-           <p style={{fontSize:'calc(12px + 1vw)',marginLeft:'2%', marginRight:'2%'}}>Preppy is a progressive web app 
+           <p style={{fontSize:'calc(12px + 1vw)',marginLeft:'3%', marginRight:'3%'}}>Preppy is a progressive web app 
            that leverages barcodes and device cameras to allow users to easily find 
            new recipes that incorporate ingredients on-hand
            </p>
@@ -60,7 +60,7 @@ const ProjPage = () =>{
         <div className='Herocard' style={{marginTop:'0'}}>
             <center> <h2 className='Herocard_text' style={{paddingLeft:0,}}><a href='http://sigma-grace-shopper.herokuapp.com/'className='proj_links' >Gyre</a></h2>
     {/* <img src={testImage}/> */}
-            <p style={{fontSize:'calc(12px + 1vw)',marginLeft:'2%', marginRight:'2%'}}>Built with Javascript, React, Redux, Node,and Postgresql,
+            <p style={{fontSize:'calc(12px + 1vw)',marginLeft:'3%', marginRight:'3%'}}>Built with Javascript, React, Redux, Node,and Postgresql,
             Gyre is a mock E-Commerce website specializing in the sale of carnival equipment.
            </p>
            </center>
